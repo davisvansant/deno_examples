@@ -8,3 +8,4 @@ steps:
   - apt-get update && apt-get install curl unzip -y
   - curl -fsSL https://deno.land/x/install/install.sh | sh
   - /root/.deno/bin/deno --version
+  - /root/.deno/bin/deno run hello_world.ts
