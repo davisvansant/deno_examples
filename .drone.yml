@@ -10,3 +10,4 @@ steps:
   - /root/.deno/bin/deno --version
   - /root/.deno/bin/deno run hello_world.ts
   - /root/.deno/bin/deno run --allow-net http_request.ts https://deno.land/std/examples/curl.ts
+  - /root/.deno/bin/deno run --allow-read reading_a_file.ts ./file
